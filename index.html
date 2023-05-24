@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+  <main>
+    <p class="error">Porfavor seleccione un elemento</p>
+    <div class="divisor">
+      <div id="logo">
+        <img src="./images/icon-star.svg" alt="star">
+      </div>
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+    <div class="divisor">
+      <div class="select">
+        <input type="radio" name="public" id="1" value="1" class="visible">
+        <label for="1">1</label>
+        <input type="radio" name="public" id="2" value="2" class="visible">
+        <label for="2">2</label>
+        <input type="radio" name="public" id="3" value="3" class="visible">
+        <label for="3">3</label>
+        <input type="radio" name="public" id="4" value="4" class="visible">
+        <label for="4">4</label>
+        <input type="radio" name="public" id="5" value="5" class="visible">
+        <label for="5">5</label>
+      </div>
+      <button class="btn" id="btn">Submit</button>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
